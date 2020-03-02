@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
-    int y=0;
+
     Button btn;
     ImageView[] iv=new ImageView[3];
     int []id=new int[3];

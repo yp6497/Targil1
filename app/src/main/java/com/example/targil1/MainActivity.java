@@ -34,26 +34,20 @@ public class MainActivity extends AppCompatActivity {
             iv[1].setVisibility(view.INVISIBLE);
             iv[2].setVisibility(view.INVISIBLE);
             iv[0].setImageResource(id[0]);
-
-
-
-    }
+         }
         if (x == 2){
             iv[1].setVisibility(view.VISIBLE);
             iv[0].setVisibility(view.INVISIBLE);
             iv[2].setVisibility(view.INVISIBLE);
             iv[1].setImageResource(id[1]);
-
-    }
+         }
         if (x == 3){
             iv[2].setVisibility(view.VISIBLE);
             iv[0].setVisibility(view.INVISIBLE);
             iv[1].setVisibility(view.INVISIBLE);
             iv[2].setImageResource(id[2]);
+         }
 
-
-    }
-
-      }
+        }
     }
 
